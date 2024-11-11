@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700;900&display=swap');
+
+:root {
+    --background-color: black;
+    --gradient: linear-gradient(to bottom, #33A8DB, #1472B7);
+    --module-background-color: #252525;
+    --title-color: #33A8DB;
+    --text-color: white;
+    --text-shadow: 3px 2px 0px var(--title-color);
+    --module-shadow: -2px 6px 4px 0px #00000066 inset;
+    --border-style: 1px solid var(--title-color);
+}
+
+* {
+    font-family: 'Raleway', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+}

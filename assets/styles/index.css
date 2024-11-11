@@ -1,0 +1,209 @@
+@import url('global.css');
+
+body {
+    background-color: var(--background-color);
+}
+
+header {
+    background-image: linear-gradient(
+        rgba(0, 0, 0, .6), rgba(49, 168, 221, .2), 
+        rgba(0, 0, 0, .6)
+    ), url('../images/header-background.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: var(--border-style);
+}
+
+p {
+    color: var(--text-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18.78px;
+    text-align: center;
+}
+
+h1 {
+    color: var(--title-color);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 37.57px;
+    letter-spacing: 0.19em;
+    text-align: center;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header > img {
+    width: 268px;
+    height: 268px;
+    margin-top: 83px;
+    margin-bottom: 43px;
+}
+
+header > h1 {
+    font-size: 40px;
+    line-height: 46.96px;
+    font-weight: 900;
+    background: var(--gradient);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+header > p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23.48px;
+    text-align: center;
+    max-width: 510px;
+    margin-top: 16px;
+    margin-bottom: 24px;
+}
+
+header > button {
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 18.78px;
+    letter-spacing: 0.21em;
+    text-align: center;
+    background-color: transparent;
+    color: var(--title-color);
+    height: 57px;
+    padding: 19px 91px;
+    margin-bottom: 75px;
+    border: 2px solid;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(to bottom, #3BA1CD,  #1572B7);
+}
+
+#learning-section > h1 {
+    margin-top: 118px;
+    margin-bottom: 24px;
+}
+
+#learning-section > p {
+    max-width: 792px;
+}
+
+#learning-section > .modules {
+    margin-top: 24px;
+    margin-bottom: 90px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.module {
+    height: 51px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    gap: 5px;
+    padding: 16px 127px;
+    border: var(--border-style);
+    border-radius: 57px;
+    background-color: var(--module-background-color);
+    box-shadow: var(--module-shadow);
+}
+
+.module > span {
+    font-size: 16px;
+    line-height: 18.78px;
+    font-weight: 400;
+}
+
+.module > .title {
+    color: var(--title-color);
+}
+
+.module > .description {
+    color: var(--text-color);
+}
+
+#img-section {
+    background-size: cover;
+    background-image: url('../images/woman-code.png');
+    background-attachment: fixed;
+    height: 363px;
+    border-top: var(--border-style);
+    border-bottom: var(--border-style);
+}
+
+#img-section > span {
+    color: var(--text-color);
+    font-size: 40px;
+    line-height: 46.96px;
+    font-weight: 900;
+    max-width: 244px;
+    margin-left: 198px;
+    margin-right: auto;
+    text-shadow: var(--text-shadow);
+}
+
+#depoiments-section > h1 {
+    max-width: 792px;
+    margin-top: 76px;
+    margin-bottom: 32px;
+}
+
+#depoiments-section > img {
+    max-width: 659px;
+    max-height: 429px;
+}
+
+#depoiments-section > p {
+    max-width: 792px;
+    margin-top: 40px;
+    margin-bottom: 91px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 59px auto 38px;
+    border-top: var(--border-style);
+    background: linear-gradient(
+        180deg, 
+        rgba(51, 168, 219, 0) 0%, 
+        rgba(51, 168, 219, 0.2) 99.99%, 
+        rgba(51, 168, 219, 0.2) 100%
+    );
+}
+
+footer > img {
+    height: 44px;
+    width: 310px;
+    margin: 59px 0px auto ;
+}
+
+footer > p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.78px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 38px;
+}
+
+footer > p > a {
+    color: var(--title-color);
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18.78px;
+    text-align: center;
+}
